@@ -28,6 +28,25 @@ print(q)
 
 
 
+from collections import defaultdict
+# 定义新的dict类对象，把一个函数作为实参传入，且返回值将是字典找不到key时的默认返回值
+New_dict = defaultdict(lambda : "I'm yours")
+
+New_dict['key1']  = 'cy'
+New_dict['key2']  = 'yy'
+print(New_dict['key2'],New_dict['key1'])
+print(New_dict['key3'])
+
+
+from collections import OrderedDict
+
+d = {}
+d['b'] = 1
+d['a'] = 2
+d['c'] = 3
+
+
+
 
 
 

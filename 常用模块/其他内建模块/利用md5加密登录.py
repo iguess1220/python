@@ -1,11 +1,13 @@
-import hashlib
+import hmac
+userDict = {}
 def Print():
     print('''
        1: Add user
        2: Mod password
        3: del user
        4: list
-       5: del
+       5: save
+       6: login
     '''
     )
 def Rec():
@@ -17,12 +19,12 @@ def ADD():
     if newuser in userDict.keys():
         print('此用户已存在')
     else:
-        password = Rec_pass()
+        password = bytes(Rec_pass(),encoding='utf-8')
         userDict[newuser] = Sha(password)
 def MOD():
     Getuser = Rec()
     if Getuser in userDict.keys():
-        ModPass = Rec_pass()
+        ModPass = bytes(Rec_pass(),encoding='utf-8')
         userDict[Getuser] = Sha(ModPass)
     else:
         print('没有此用户')
@@ -44,12 +46,11 @@ def Read():
         tc = f.read()
         userDict = eval(tc)
 def Sha(arg):
-    shapass = hashlib.sha256()
-    shapass.update(arg.encode('utf-8'))
+    shapass = hmac.new(b'secret',arg,digestmod='sha256')
     return shapass.hexdigest()
 def Login():
     L_user = Rec()
-    L_password = Rec_pass()
+    L_password = bytes(Rec_pass(),encoding='utf-8')
     if userDict[L_user] != Sha(L_password):
         print('pass error')
     else:
@@ -63,7 +64,6 @@ def Login():
 # 7. 保存
 # 8. 读取已有字典
 # 加密:
-userDict = {}
 Read()
 while True:
     Print()

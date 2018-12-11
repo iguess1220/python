@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae9ea4ad-ef52-4642-bf03-f01945ef2c41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/常用模块/Counter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常用模块/chinaMap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常用模块/test_argparse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常用模块/test_base64.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常用模块/其他内建模块/struct.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常用模块/其他内建模块/test_hashlib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常用模块/其他内建模块/testhash.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常用模块/其他内建模块/利用md5加密登录.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/常用模块/其他内建模块/contextlib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/常用模块/其他内建模块/itertools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/常用模块/其他内建模块/test_hmac.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常用模块/collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/常用模块/collections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/常用模块/其他内建模块/利用md5加密登录.py" beforeDir="false" afterPath="$PROJECT_DIR$/常用模块/其他内建模块/利用md5加密登录.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,9 +16,11 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/201811$test_base64.coverage" NAME="test_base64 Coverage Results" MODIFIED="1544150703220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用模块" />
-    <SUITE FILE_PATH="coverage/201811$md5.coverage" NAME="利用md5加密登录 Coverage Results" MODIFIED="1544172178429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用模块/其他内建模块" />
+    <SUITE FILE_PATH="coverage/201811$md5.coverage" NAME="利用md5加密登录 Coverage Results" MODIFIED="1544412995165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用模块/其他内建模块" />
     <SUITE FILE_PATH="coverage/201811$testhash.coverage" NAME="testhash Coverage Results" MODIFIED="1544171491077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用模块/其他内建模块" />
     <SUITE FILE_PATH="coverage/201811$Fib2.coverage" NAME="Fib2 Coverage Results" MODIFIED="1542275774927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向对象" />
+    <SUITE FILE_PATH="coverage/201811$hmac.coverage" NAME="hmac Coverage Results" MODIFIED="1544413650142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用模块/其他内建模块" />
+    <SUITE FILE_PATH="coverage/201811$contextlib.coverage" NAME="contextlib Coverage Results" MODIFIED="1544521989621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用模块/其他内建模块" />
     <SUITE FILE_PATH="coverage/201811$Fib.coverage" NAME="Fib Coverage Results" MODIFIED="1542269036286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/面向对象" />
     <SUITE FILE_PATH="coverage/201811$test_hashlib.coverage" NAME="test_hashlib Coverage Results" MODIFIED="1544166245650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用模块/其他内建模块" />
     <SUITE FILE_PATH="coverage/201811$read_gz.coverage" NAME="read_gz Coverage Results" MODIFIED="1543394717670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IO" />
@@ -51,6 +48,7 @@
     <SUITE FILE_PATH="coverage/201811$struct.coverage" NAME="struct Coverage Results" MODIFIED="1544164485300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用模块/其他内建模块" />
     <SUITE FILE_PATH="coverage/201811$subprocess.coverage" NAME="subprocess Coverage Results" MODIFIED="1543824429746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/进程和线程" />
     <SUITE FILE_PATH="coverage/201811$read_and_write.coverage" NAME="read_and_write Coverage Results" MODIFIED="1543304736358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IO" />
+    <SUITE FILE_PATH="coverage/201811$itertools.coverage" NAME="itertools Coverage Results" MODIFIED="1544422684159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用模块/其他内建模块" />
     <SUITE FILE_PATH="coverage/201811$process.coverage" NAME="process Coverage Results" MODIFIED="1543821998457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/201811$.coverage" NAME="切分字符串 Coverage Results" MODIFIED="1543989703954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/正则" />
     <SUITE FILE_PATH="coverage/201811$oper_os.coverage" NAME="oper_os Coverage Results" MODIFIED="1543393819645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IO" />
@@ -62,14 +60,15 @@
     <session id="1410813508">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.4" value="4" />
           <entry key="project.open.time.5" value="5" />
-          <entry key="project.open.time.6" value="6" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.open.time.6" value="8" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -78,7 +77,7 @@
           <entry key="passwd" value="3" />
           <entry key="password" value="1" />
           <entry key="pstat" value="2" />
-          <entry key="py" value="125" />
+          <entry key="py" value="132" />
           <entry key="pyi" value="4" />
           <entry key="test" value="1" />
           <entry key="txt" value="5" />
@@ -88,24 +87,24 @@
         <counts>
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="Profiler Session" value="2" />
-          <entry key="Python" value="125" />
+          <entry key="Python" value="132" />
           <entry key="PythonStub" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="97" />
-          <entry key="dummy" value="36" />
-          <entry key="passwd" value="79" />
+          <entry key="dummy" value="47" />
+          <entry key="passwd" value="89" />
           <entry key="password" value="1" />
-          <entry key="py" value="23716" />
-          <entry key="txt" value="20" />
+          <entry key="py" value="26094" />
+          <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="136" />
-          <entry key="Python" value="23813" />
+          <entry key="PLAIN_TEXT" value="158" />
+          <entry key="Python" value="26191" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -117,45 +116,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/常用模块/其他内建模块/test_hashlib.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/常用模块/其他内建模块/利用md5加密登录.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
-              <folding>
-                <marker date="1544171995623" expanded="true" signature="156:203" ph="..." />
-                <marker date="1544171995623" expanded="true" signature="413:418" ph="..." />
-                <marker date="1544171995623" expanded="true" signature="413:603" ph="..." />
-                <marker date="1544171995623" expanded="true" signature="868:953" ph="..." />
-                <marker date="1544171995623" expanded="true" signature="1081:1236" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/常用模块/其他内建模块/passwd">
+        <entry file="file://$PROJECT_DIR$/常用模块/其他内建模块/contextlib.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/常用模块/其他内建模块/testhash.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            <state relative-caret-position="132">
+              <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -175,10 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/面向对象/Fib.py" />
-        <option value="$PROJECT_DIR$/面向对象/Fib2.py" />
-        <option value="$PROJECT_DIR$/面向对象/getattr.py" />
-        <option value="$PROJECT_DIR$/test/test1.py" />
         <option value="$PROJECT_DIR$/面向对象/__call__.py" />
         <option value="$PROJECT_DIR$/面向对象/member.py" />
         <option value="$PROJECT_DIR$/面向对象/type.py" />
@@ -224,8 +185,12 @@
         <option value="$PROJECT_DIR$/常用模块/其他内建模块/test_hashlib.py" />
         <option value="$PROJECT_DIR$/常用模块/其他内建模块/password" />
         <option value="$PROJECT_DIR$/常用模块/其他内建模块/testhash.py" />
-        <option value="$PROJECT_DIR$/常用模块/其他内建模块/利用md5加密登录.py" />
         <option value="$PROJECT_DIR$/常用模块/其他内建模块/passwd" />
+        <option value="$PROJECT_DIR$/常用模块/其他内建模块/hmac.py" />
+        <option value="$PROJECT_DIR$/常用模块/其他内建模块/利用md5加密登录.py" />
+        <option value="$PROJECT_DIR$/常用模块/其他内建模块/test_hmac.py" />
+        <option value="$PROJECT_DIR$/常用模块/其他内建模块/itertools.py" />
+        <option value="$PROJECT_DIR$/常用模块/其他内建模块/contextlib.py" />
       </list>
     </option>
   </component>
@@ -236,9 +201,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1440" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -248,7 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,6 +234,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,29 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.利用md5加密登录">
-    <configuration name="多进程" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="201811" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/进程和线程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/进程和线程/多进程.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.contextlib">
     <configuration name="简写技巧" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="201811" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -387,6 +329,72 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="contextlib" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="201811" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/常用模块/其他内建模块" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/常用模块/其他内建模块/contextlib.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hmac" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="201811" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/常用模块/其他内建模块" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/常用模块/其他内建模块/test_hmac.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="itertools" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="201811" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/常用模块/其他内建模块" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/常用模块/其他内建模块/itertools.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="利用md5加密登录" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="201811" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -401,72 +409,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/常用模块/其他内建模块/利用md5加密登录.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="struct" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="201811" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/常用模块/其他内建模块" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/常用模块/其他内建模块/struct.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_base64" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="201811" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/常用模块" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/常用模块/test_base64.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_hashlib" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="201811" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/常用模块/其他内建模块" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/常用模块/其他内建模块/test_hashlib.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -498,19 +440,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test_base64" />
-      <item itemvalue="Python.struct" />
-      <item itemvalue="Python.test_hashlib" />
+      <item itemvalue="Python.简写技巧" />
       <item itemvalue="Python.利用md5加密登录" />
       <item itemvalue="Python.testhash" />
+      <item itemvalue="Python.hmac" />
+      <item itemvalue="Python.itertools" />
+      <item itemvalue="Python.contextlib" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.contextlib" />
+        <item itemvalue="Python.itertools" />
+        <item itemvalue="Python.hmac" />
         <item itemvalue="Python.利用md5加密登录" />
         <item itemvalue="Python.testhash" />
-        <item itemvalue="Python.test_hashlib" />
-        <item itemvalue="Python.struct" />
-        <item itemvalue="Python.test_base64" />
       </list>
     </recent_temporary>
   </component>
@@ -553,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544067618416</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="进程和正则">
+      <created>1544172268450</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1544172268451</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -577,11 +527,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" weight="0.32960597" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.111821085" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.116595134" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32928064" />
@@ -590,8 +540,8 @@
       <window_info anchor="bottom" id="Python Console" order="4" weight="0.32522798" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" sideWeight="0.49928468" weight="0.26950353" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49946752" visible="true" weight="0.57548124" />
+      <window_info active="true" anchor="bottom" id="Find" order="7" sideWeight="0.49928468" visible="true" weight="0.26950353" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.49946752" visible="true" weight="0.5737299" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39817628" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -694,28 +644,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/简写技巧.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IO/test.txt" />
-    <entry file="file://$PROJECT_DIR$/错误处理.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IO/text.txt" />
     <entry file="file://$PROJECT_DIR$/IO/oper_os.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -942,13 +870,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1132495474/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="548" column="4" selection-start-line="548" selection-start-column="4" selection-end-line="548" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/常用模块/chinaMap.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -994,13 +915,6 @@
     <entry file="file://$PROJECT_DIR$/常用模块/其他内建模块/password">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/常用模块/其他内建模块/test_hashlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/常用模块/其他内建模块/testhash.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1008,24 +922,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/常用模块/其他内建模块/利用md5加密登录.py">
+    <entry file="file://$PROJECT_DIR$/常用模块/其他内建模块/test_hashlib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
-          <folding>
-            <marker date="1544171995623" expanded="true" signature="156:203" ph="..." />
-            <marker date="1544171995623" expanded="true" signature="413:418" ph="..." />
-            <marker date="1544171995623" expanded="true" signature="413:603" ph="..." />
-            <marker date="1544171995623" expanded="true" signature="868:953" ph="..." />
-            <marker date="1544171995623" expanded="true" signature="1081:1236" ph="..." />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/常用模块/其他内建模块/passwd">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
+          <caret column="148" selection-start-column="148" selection-end-column="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.7/hmac.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="141" column="30" selection-start-line="141" selection-start-column="30" selection-end-line="141" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/常用模块/其他内建模块/利用md5加密登录.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/常用模块/其他内建模块/test_hmac.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-1132495474/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2888">
+          <caret line="352" column="4" selection-start-line="352" selection-start-column="4" selection-end-line="352" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/常用模块/其他内建模块/itertools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/常用模块/其他内建模块/contextlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
         </state>
       </provider>
     </entry>

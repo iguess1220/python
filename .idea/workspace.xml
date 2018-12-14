@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae9ea4ad-ef52-4642-bf03-f01945ef2c41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/常用模块/其他内建模块/test_urllib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常用模块/其他内建模块/testmail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常用模块/其他内建模块/urllib_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常用模块/其他内建模块/urllib_test3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常用模块/其他内建模块/获取邮件列表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/201811.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/201811.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/常用模块/其他内建模块/获取邮件列表.py" beforeDir="false" afterPath="$PROJECT_DIR$/常用模块/其他内建模块/获取邮件列表.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +51,7 @@
     <SUITE FILE_PATH="coverage/201811$read_and_write.coverage" NAME="read_and_write Coverage Results" MODIFIED="1543304736358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IO" />
     <SUITE FILE_PATH="coverage/201811$itertools.coverage" NAME="itertools Coverage Results" MODIFIED="1544422684159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用模块/其他内建模块" />
     <SUITE FILE_PATH="coverage/201811$process.coverage" NAME="process Coverage Results" MODIFIED="1543821998457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/201811$.coverage" NAME="获取邮件列表 Coverage Results" MODIFIED="1544697339733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用模块/其他内建模块" />
+    <SUITE FILE_PATH="coverage/201811$.coverage" NAME="获取邮件列表 Coverage Results" MODIFIED="1544794973145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用模块/其他内建模块" />
     <SUITE FILE_PATH="coverage/201811$oper_os.coverage" NAME="oper_os Coverage Results" MODIFIED="1543393819645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IO" />
     <SUITE FILE_PATH="coverage/201811$test_argparse.coverage" NAME="test_argparse Coverage Results" MODIFIED="1544077224114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用模块" />
     <SUITE FILE_PATH="coverage/201811$hello.coverage" NAME="hello Coverage Results" MODIFIED="1542175003760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" />
@@ -67,15 +61,15 @@
     <session id="1410813508">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="26" />
+          <entry key="project.closed" value="27" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.4" value="5" />
           <entry key="project.open.time.5" value="6" />
-          <entry key="project.open.time.6" value="9" />
+          <entry key="project.open.time.6" value="10" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="28" />
+          <entry key="project.opened" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -104,14 +98,14 @@
           <entry key="dummy" value="47" />
           <entry key="passwd" value="89" />
           <entry key="password" value="1" />
-          <entry key="py" value="30216" />
+          <entry key="py" value="31489" />
           <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="158" />
-          <entry key="Python" value="30313" />
+          <entry key="Python" value="31586" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -126,8 +120,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/常用模块/其他内建模块/testmail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="490">
+              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -135,8 +129,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/常用模块/其他内建模块/获取邮件列表.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+            <state relative-caret-position="479">
+              <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -241,6 +235,12 @@
               <item name="201811" type="b2602c69:ProjectViewProjectNode" />
               <item name="201811" type="462c0819:PsiDirectoryNode" />
               <item name="常用模块" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="201811" type="b2602c69:ProjectViewProjectNode" />
+              <item name="201811" type="462c0819:PsiDirectoryNode" />
+              <item name="常用模块" type="462c0819:PsiDirectoryNode" />
+              <item name="其他内建模块" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -454,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544522148389</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="进程和正则">
+      <created>1544773187303</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1544773187303</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -482,7 +489,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" weight="0.32960597" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.12087327" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.12193823" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32928064" />
@@ -492,7 +499,7 @@
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" sideWeight="0.49928468" weight="0.26950353" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49946752" weight="0.29989868" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.49946752" visible="true" weight="0.29989868" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39817628" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -955,15 +962,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/常用模块/其他内建模块/testmail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state relative-caret-position="490">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/常用模块/其他内建模块/获取邮件列表.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        <state relative-caret-position="479">
+          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
         </state>
       </provider>
     </entry>

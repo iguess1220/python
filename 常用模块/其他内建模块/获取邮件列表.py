@@ -1,4 +1,10 @@
 import imaplib,datetime,pymysql
+mail_list = ['reg.server-001@mexmarkets.com',
+             'reg.server-002@mexmarkets.com',
+             'reg.server-003@mexmarkets.com',
+             'reg.server-004@mexmarkets.com',
+             'reg.server-005@mexmarkets.com']
+print(mail_list[0])
 class mail_163:
     def __init__(self,accout):
         self.account = accout
@@ -35,12 +41,22 @@ def update_mail():
         db.rollback()
     finally:
         db.close()
-update_mail()
+#update_mail()
 def get_cu_mail(arg):
     dab = pymysql.connect(DB_host, DB_user, DB_pass, DB_name)
     cur =dab.cursor()
     cur.execute("select %s from mails" % arg)
     result = cur.fetchone()
+    if result == None:
+        cur.execute("insert into mails value('%s','%s','%s','%s','%s')" %(mail_server,mail_user,mail_pass,mail_port,mail_protocol))
+        dab.commit()
     dab.close()
     return  result
 get_cu_mail('user')
+print(mail_list.index(get_cu_mail('user')[0]))
+print(get_cu_mail('user')[0])
+def futrue_mail():
+    if mail_list.index(get_cu_mail('user')[0]) == len(mail_list):
+        return mail_list[0]
+    else:
+        return mail_list[0+1]
